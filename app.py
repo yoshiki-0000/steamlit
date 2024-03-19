@@ -3,6 +3,9 @@ import streamlit as st
 # ホームページのタイトル
 st.title('山田バイクショップ')
 
+# ショップの画像
+st.image('image/shop.webp', caption='山田バイクショップの外観')
+
 # ショップについての説明
 st.header('ショップについて')
 st.write('山田バイクショップへようこそ！私たちは、最高のバイクとサービスを提供することに情熱を注いでいます。')
@@ -15,6 +18,9 @@ st.write('''
 - カスタマイズ
 - レンタルサービス
 ''')
+
+# バイクの画像
+st.image(['image/bike.webp', 'image/bike.webp'], caption=['バイク1', 'バイク2'])
 
 # 連絡先情報
 st.header('連絡先')
